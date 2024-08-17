@@ -32,7 +32,7 @@ settings for the worker.
 
 Documentation for this worker is provided using the JSDoc style and library.
 
-The documentation can be viewed [here](https://cloudflare-worker-contact-form-docs.vercel.app/).
+The documentation can be viewed [here](https://cloudflare-worker-contact-form-documentation.vercel.app/).
 
 To view the documentation as a website hosted locally, you can follow these steps:
 - clone the repo
