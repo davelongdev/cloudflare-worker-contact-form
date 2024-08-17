@@ -1,0 +1,26 @@
+{
+    "plugins": ["plugins/markdown"],
+    "recurseDepth": 10,
+    "source": {
+			"include": ["src"],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/|jsdoc/|.wrangler/)"
+    },
+    "sourceType": "module",
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc", "closure"]
+    },
+    "templates": {
+        "cleverLinks": true,
+        "monospaceLinks": true
+    },
+		"opts": {
+			"template": "./jsdoc/custom-template/",  // same as -t custom-template
+			"encoding": "utf8",               // same as -e utf8
+			"destination": "./jsdoc/",          // same as -d ./jsdoc/
+			"recurse": true,                  // same as -r
+			// "tutorials": "./tutorials", // same as -u path/to/tutorials
+			"readme": "readme.md"
+		}
+}

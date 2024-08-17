@@ -1,0 +1,7 @@
+let response = await fetch('https://web-studio.davelongdev.workers.dev?key=getkey', {
+  method: 'GET'
+});
+
+let data = await response.text();
+
+console.log(data);

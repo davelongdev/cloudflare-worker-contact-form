@@ -1,0 +1,16 @@
+{
+  "name": "web-studio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "jsdoc": "jsdoc -c jsdoc.json"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.2",
+    "mimetext": "^3.0.16",
+    "wrangler": "^3.58.0"
+  }
+}

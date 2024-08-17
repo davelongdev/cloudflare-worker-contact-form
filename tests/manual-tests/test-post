@@ -1,0 +1,16 @@
+let response = await fetch('https://web-studio.davelongdev.workers.dev', {
+  method: 'POST',
+	body: JSON.stringify({
+		name: 'frankie',
+		message: 'hello. this is a message.',
+		userId: "1234"
+	}),
+	headers: {
+		'Content-type': 'application/json',
+		'mode': 'no cors',
+	}
+});
+
+let data = await response.json();
+
+console.log(data);
