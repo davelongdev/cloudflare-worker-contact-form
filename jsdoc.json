@@ -21,6 +21,6 @@
 			"destination": "./jsdoc/",          // same as -d ./jsdoc/
 			"recurse": true,                  // same as -r
 			// "tutorials": "./tutorials", // same as -u path/to/tutorials
-			"readme": "readme.md"
+			"readme": "./README.md"
 		}
 }

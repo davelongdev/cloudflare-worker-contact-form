@@ -1,7 +1,3 @@
-# README
-
-## Summary
-
 This cloudflare worker creates an API to process data submitted through a form on the contact page of
 davelongwebstudio.com.
 

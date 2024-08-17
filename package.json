@@ -9,7 +9,7 @@
     "jsdoc": "jsdoc -c jsdoc.json"
   },
   "devDependencies": {
-    "jsdoc": "^4.0.2",
+    "jsdoc": "^4.0.3",
     "mimetext": "^3.0.16",
     "wrangler": "^3.58.0"
   }
