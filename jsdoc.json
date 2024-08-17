@@ -1,4 +1,5 @@
 {
+		"title": "Contact Form Cloudflare Worker",
     "plugins": ["plugins/markdown"],
     "recurseDepth": 10,
     "source": {

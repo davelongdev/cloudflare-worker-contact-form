@@ -613,7 +613,7 @@ exports.publish = (taffyData, opts, tutorials) => {
     files = find({kind: 'file'});
     packages = find({kind: 'package'});
 
-    generate('Contact Page CF Worker',
+    generate('Contact Page Cloudflare Worker',
         packages.concat(
             [{
                 kind: 'mainpage',
