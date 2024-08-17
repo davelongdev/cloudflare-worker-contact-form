@@ -36,7 +36,9 @@ settings for the worker.
 
 Documentation for this worker is provided using the JSDoc style and library.
 
-To view the documentation as a website, you can follow these steps:
+The documentation can be viewed [here](https://cloudflare-worker-contact-form-docs.vercel.app/).
+
+To view the documentation as a website hosted locally, you can follow these steps:
 - clone the repo
 - start a python web server
 - navigate to the /jsdoc directory
